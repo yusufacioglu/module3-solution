@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: bisque;
+}
+
+/*---------------Header-Nav Bar---------------*/
+.navbar {
+    border-radius: 10px;
+    background-color: rgba(184, 175, 249);
+    border: 1px solid black;
+}
+
+.navbar-brand {
+    font-size: 35px;
+    color: rgb(17, 16, 16);
+    padding-left: 25px;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.navbar-nav {
+    background-color: bisque;
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-toggle {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-right: 25px;
+}
+
+.navbar-toggle:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.icon-bar {
+    background-color: rgb(0, 0, 0);
+}
+
+
+/*---------------Title Our Menu---------------*/
+.main-title {
+    margin-top: 80px;
+    text-align: center;
+    color:black;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/*---------------Menu---------------*/
+.menu-item {
+    padding: 0;
+    margin: 5px;
+    background-color: rgb(255, 169, 169);
+    border-radius: 20px;
+    border-bottom: 1px solid black;
+    color: black;
+    display: block;
+}
+
+.menu-item:hover {
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.row {
+    margin: 20px;
+}
+
+
+/*---------------Content---------------*/
+.content-box {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(184, 175, 249);
+    text-align: justify;
+    margin: 20px;
+    width: auto;
+    height: auto;
+    color: black;
+    padding: 20px;
+}
+
+.item-name {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/*---------------Back To Top---------------*/
+#backtop {
+    color: rgb(0, 0, 0);
+    float: right;
+    background-color: rgba(255, 169, 169);
+    border-radius: 10px;
+    padding: 5px;
+    margin: -10px;
+    border: 1px solid black;
+
+}
+
+#backtop:hover {
+    text-decoration: none;
+    background-color:white;
+    border-radius: 10px;
+}
